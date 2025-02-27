@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "test": "node ./test.js",
+    "build": "node ./build.js"
+  }
 }
