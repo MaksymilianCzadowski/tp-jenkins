@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js",
+    "test": "mocha",
     "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
   }
 }
